@@ -9,6 +9,9 @@ namespace PremiumCalculator.WebAPI.Controllers
     [ApiController]
     public class PremiumCalculatorController : ControllerBase
     {
+        /// <summary>
+        /// Premium calculatorInfo
+        /// </summary>
         private IPremiumCalculatorService premiumCalculatorService { get; set; }
 
 
@@ -20,7 +23,8 @@ namespace PremiumCalculator.WebAPI.Controllers
 
         }
         [HttpGet]
-       
+        [Route("[action]")]
+
         public List<OccupationMasterViewModel> GetOccupation()
         {
 
@@ -28,5 +32,14 @@ namespace PremiumCalculator.WebAPI.Controllers
 
         }
 
+
+        [HttpPost]
+        [Route("[action]")]
+        public PremiumCalculatorInfo GetPremiumInfo(PremiumCalculatorInfoUserInfo premiumCalculatorInfoUserInfo)
+        {
+
+            return premiumCalculatorService.PremiumCalculatorInfo(premiumCalculatorInfoUserInfo);
+
+        }
     }
 }

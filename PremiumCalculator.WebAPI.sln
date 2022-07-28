@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculator.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PremiumCalculator.BusinessEntity", "PremiumCalculator.BusinessEntity\PremiumCalculator.BusinessEntity.csproj", "{DD1DC137-12BF-43FB-BFEC-E80A19FD38B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{FF8B8B90-2EB2-4F96-9D29-B075C682D0DE}"
+	ProjectSection(SolutionItems) = preProject
+		script.sql = script.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
