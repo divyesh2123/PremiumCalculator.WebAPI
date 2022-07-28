@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PremiumCalculator.Services.Contract
 {
-    internal class PremiumCalculatorService
+    public class PremiumCalculatorService
     {
     }
 }

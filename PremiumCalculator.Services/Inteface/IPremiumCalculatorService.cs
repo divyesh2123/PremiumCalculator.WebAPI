@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PremiumCalculator.Services.Inteface
 {
-    internal interface IPremiumCalculatorService
+    public interface IPremiumCalculatorService
     {
     }
 }

@@ -17,5 +17,12 @@ namespace PremiumCalculator.Repository.Interface
         /// </summary>
         /// <returns>list of occupation</returns>
          List<Occupation> GetOccupations();
+
+        /// <summary>
+        /// Get Rating Inforamtion
+        /// </summary>
+        /// <param name="occupationID">Occupation Id</param>
+        /// <returns>It Return Information for rating</returns>
+        RatingMaster GetRatingInfo(int occupationID);
     }
 }

@@ -21,5 +21,7 @@ namespace PremiumCalculator.DataEntity
         /// </summary>
         public string OccupationName { get; set; }
 
+      
+
     }
 }
