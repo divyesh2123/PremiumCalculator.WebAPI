@@ -7,5 +7,6 @@ namespace PremiumCalculator.WebAPI.Controllers
     [ApiController]
     public class PremiumCalculatorController : ControllerBase
     {
+        
     }
 }
