@@ -24,7 +24,7 @@ namespace PremiumCalculator.Repository.Contract
         public PremiumCalculatorRepositroy(IConfiguration config)
         {
             _config = config;
-            string constr = _config.GetConnectionString("studentConnection");
+            string constr = _config.GetConnectionString("PremiumConnection");
             con = new SqlConnection(constr);
         }
 
@@ -53,7 +53,7 @@ namespace PremiumCalculator.Repository.Contract
                     new Occupation
                     {
                         OccupationId = Convert.ToInt32(dr["ID"]),
-                        OccupationName = dr["Occupation"] == null? dr["Occupation"].ToString() : "",
+                        OccupationName =  dr["Occupation"].ToString() ,
 
 
                     }
