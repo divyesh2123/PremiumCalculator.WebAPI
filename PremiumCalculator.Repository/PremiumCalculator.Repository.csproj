@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Contract\" />
+    <ProjectReference Include="..\PremiumCalculator.DataEntity\PremiumCalculator.DataEntity.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.Infrastructure\PremiumCalculator.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
