@@ -10,4 +10,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PremiumCalculator.BusinessEntity\PremiumCalculator.BusinessEntity.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.DataEntity\PremiumCalculator.DataEntity.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.Infrastructure\PremiumCalculator.Infrastructure.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.Repository\PremiumCalculator.Repository.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.Services\PremiumCalculator.Services.csproj" />
+  </ItemGroup>
+
 </Project>
