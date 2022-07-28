@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PremiumCalculator.BusinessEntity\PremiumCalculator.BusinessEntity.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.DataEntity\PremiumCalculator.DataEntity.csproj" />
+  </ItemGroup>
+
 </Project>
